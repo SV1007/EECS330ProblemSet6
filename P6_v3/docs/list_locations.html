@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+   <link rel="stylesheet" type="text/css" href="dist\css\ratchet.min.css">
+    <link rel="stylesheet" type="text/css" href="dist\css\ratchet-theme-ios.css">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="docs\assets\img\apple-touch-icon-114x114.png"
+  </head>
+
+<body ontouchstart="">
+  <header class="bar bar-nav">
+    <button class="btn active pull-left">
+      Locations
+    </button>
+    <button onclick="window.location='list_hotspots.html';" class="btn pull-right">
+      Hotspots
+    </button>
+    <h1 class="title">Genie</h1>
+    <nav class="bar bar-tab">
+      <a class="tab-item active" href="#">
+        List 
+      </a>
+      <a class="tab-item" href="#">
+        <span class="icon icon-plus"></span>
+        <span class="tab-label">Add New</span>
+      </a>
+      <a class="tab-item" href="map_locations.html">
+        <font color = "white">
+        Map
+      </font>
+      </a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <ul class="table-view">
+      <li class="table-view-cell media">
+        <a class="navigate-right">
+          <span class="badge">edit</span>
+          <div class="media-body">
+            <b>0.1 mi:</b> 38 Street Avenue
+            <p>Already donated? Yes - food</p>
+          </div>
+        </a>
+      </li>
+      <li class="table-view-cell media">
+        <a class="navigate-right">
+          <span class="badge">edit</span>
+          <div class="media-body">
+            <b>0.2 mi:</b> 102 Avenue Road
+            <p>Already donated? No</p>
+          </div>
+        </a>
+      </li>
+      <li class="table-view-cell media">
+        <a class="navigate-right">
+          <span class="badge">edit</span>
+          <div class="media-body">
+            <b>0.4 mi:</b> 61 Road Street
+            <p>Already donated? Yes - water</p>
+          </div>
+        </a>
+      </li>
+      <li class="table-view-cell media">
+        <a class="navigate-right">
+          <span class="badge">edit</span>
+          <div class="media-body">
+            <b>0.6 mi:</b> 40 Street Road
+            <p>Already donated? No</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

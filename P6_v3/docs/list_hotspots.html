@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+   <link rel="stylesheet" type="text/css" href="dist\css\ratchet.min.css">
+    <link rel="stylesheet" type="text/css" href="dist\css\ratchet-theme-ios.css">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="docs\assets\img\apple-touch-icon-114x114.png">
+  </head>
+
+<body ontouchstart="">
+  <header class="bar bar-nav">
+    <button onclick="window.location='list_locations.html';" class="btn pull-left">
+      Locations
+    </button>
+    <button class="btn active pull-right">
+      Hotspots
+    </button>
+    <h1 class="title">Genie</h1>
+    <nav class="bar bar-tab">
+      <a class="tab-item active" href="#">
+        List 
+      </a>
+      <a class="tab-item" href="#">
+        <span class="icon icon-plus"></span>
+        <span class="tab-label">Add New</span>
+      </a>
+      <a class="tab-item" href="map_hotspots.html">
+        <font color = "white">
+        Map
+      </font>
+      </a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <ul class="table-view">
+      <li class="table-view-cell media">
+        <a href="volunteer_location1.html" class="navigate-right">
+          <span class="badge">volunteer</span>
+          <div class="media-body">
+            <b>Evanston Soup Kitchen:</b> 0.5 mi
+            <p>1111 Church Street, Evanston IL</p>
+          </div>
+        </a>
+      </li>
+      <li class="table-view-cell media">
+        <a class="navigate-right" href="volunteer_location2.html">
+          <span class="badge">volunteer</span>
+          <div class="media-body">
+            <b>Evanston Shelter:</b> 1.1 mi
+            <p>449 Hamilton Street, Evanston IL</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
